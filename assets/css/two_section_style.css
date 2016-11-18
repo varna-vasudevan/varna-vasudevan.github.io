@@ -183,6 +183,7 @@ position: relative;
 	opacity:.6;
 	transition:1.25s;
 	padding: 1.5px;
+	cursor:pointer;
 }
 
 .grid_img_scaled:hover{
