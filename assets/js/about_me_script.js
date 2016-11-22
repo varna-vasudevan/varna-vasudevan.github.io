@@ -10,4 +10,8 @@ $("#topbar").hover(function(){
 
 });
 
+$(window).load(function() {
+		$(".se-pre-con").fadeOut("slow");;
+	});
+
 });
