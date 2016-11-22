@@ -17,7 +17,7 @@ $("#topbar-text-projects").click(function(){
     });
 
 $(window).load(function() {
-		$(".se-pre-con").fadeOut("slow");;
+		$(".se-pre-con").fadeOut(600);;
 	});
 
 });
