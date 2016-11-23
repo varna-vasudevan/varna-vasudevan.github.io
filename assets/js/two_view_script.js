@@ -21,11 +21,6 @@ $("#topbar-text-projects").click(function(){
     });
 
 
-$('a.mylink').click(function(e) {
-    e.preventDefault();
-    window.open('https://www.behance.net/gallery/37527073/Podo-Labs');
-    window.open('https://www.behance.net/gallery/42146713/Podo-Labs');
-});
 
 
 });
