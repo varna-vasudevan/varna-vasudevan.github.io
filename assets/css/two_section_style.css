@@ -19,8 +19,7 @@ body{
 
 #tinkeringpage{
 	background-color: white;
-}
-#title_container{
+}#title_container{
 	text-align: center;
 	/* margin-left: 10%; */
 	width: 100%;
@@ -28,6 +27,7 @@ body{
 	z-index: 40;
 	position: absolute;
 }
+
 
 #textbox{
 	/* display: table; */
@@ -202,7 +202,7 @@ position: relative;
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(assets/img/loading.gif) center no-repeat #fff;
+	background: url(../img/loading.gif) center no-repeat #fff;
 }
 
 @media(max-width: 1024px){
