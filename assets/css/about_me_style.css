@@ -82,7 +82,7 @@ body{
 }
 
 #topbar {
-	background: transparent;
+	background-color: white;
 	/*border:solid;
 	border-width:1px;
 	border-color:#eeeeee;*/
@@ -145,7 +145,7 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	color:#40485a;
 	z-index: 80;
 	line-height: 2.5;
-	margin-top: 300px;
+	margin-top: 320px;
 	margin-left: 49%;
 	cursor:pointer;
 	background-color: transparent;
@@ -159,7 +159,7 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 
 
 .icons{
-	margin-left: 41%;
+	margin-left: 42%;
 	width: 250px;
 	}
 
@@ -192,3 +192,63 @@ box-shadow: 0px 1px 43px -16px rgba(0,0,0,1);
 	z-index: 9999;
 	background: url(assets/img/loading.gif) center no-repeat #fff;
 }
+
+@media(max-width: 1024px){
+
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+
+	.button{
+	border-color: #40485a;
+	border-radius: 2px;
+	border: 1px solid;
+	width: 150px;
+	height: 40px;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:#40485a;
+	z-index: 80;
+	line-height: 2.5;
+	margin-top: 300px;
+	margin-left: 45%;
+	cursor:pointer;
+	background-color: transparent;
+}
+
+.icons{
+	margin-left: 35%;
+	width: 250px;
+	}
+}
+
+@media (max-width:1440px) and (min-width:1025px) {
+
+.button{
+	border-color: #40485a;
+	border-radius: 2px;
+	border: 1px solid;
+	width: 150px;
+	height: 40px;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 16px;
+	color:#40485a;
+	z-index: 80;
+	line-height: 2.5;
+	margin-top: 350px;
+	margin-left: 49%;
+	cursor:pointer;
+	background-color: transparent;
+}
+	}

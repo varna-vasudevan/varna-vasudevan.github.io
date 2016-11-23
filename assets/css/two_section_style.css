@@ -205,3 +205,16 @@ position: relative;
 	background: url(assets/img/loading.gif) center no-repeat #fff;
 }
 
+@media(max-width: 1024px){
+
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 10px;
+	text-transform: uppercase;
+}
+}
