@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+	$(window).load(function() {
+		$(".se-pre-con").fadeOut(600);;
+	});
 	
 $("#topbar-text-tinkering").click(function(){
   
@@ -16,9 +20,7 @@ $("#topbar-text-projects").click(function(){
 
     });
 
-$(window).load(function() {
-		$(".se-pre-con").fadeOut(600);;
-	});
+
 
 });
 
