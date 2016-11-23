@@ -9,10 +9,7 @@ $("#container").hover(function(){
 
     });
 
-$("#topbar").hover(function(){
-  		 $('.cover_img_scaled').removeClass("cover_img_hover_jquery");
 
-});
 
 
 });
