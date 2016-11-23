@@ -127,7 +127,22 @@ body{
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
 
-@media(max-width: 1024px){
+
+
+@media(max-width: 414px){
+	.topbar-text {
+	display: inline;
+	color: #40485a;
+	font-size: 16;
+	letter-spacing:  3px;
+	font-weight:300;
+	padding-left: 30px;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+}
+
+@media(max-width:1024px) and (min-width:415px){
 
 	.topbar-text {
 	display: inline;
