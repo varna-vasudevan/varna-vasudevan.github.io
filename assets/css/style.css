@@ -73,7 +73,7 @@ body{
 
 .logo_scaled{
 	display: inline-block;
-	margin-top: 25px;
+	margin-top: 15px;
 	margin-left: 5%;
 	height:65px;
 }
@@ -86,7 +86,7 @@ body{
 #topbar-items{
 	position:absolute;
 	margin-left:60%;
-	top:40px;
+	top:35px;
 	z-index: 100;
 	
 }
