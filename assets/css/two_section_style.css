@@ -35,6 +35,8 @@ body{
 	position: relative;
 	top: 20%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
 	/* left: 45%; */
 }
 
@@ -53,6 +55,9 @@ body{
 	position: relative;
 	top: 20%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+
 	/* left: 45%; */
 }
 
@@ -180,6 +185,7 @@ position: relative;
 	object-fit: cover;
 	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
 	filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
 	opacity:.6;
 	transition:1.25s;
 	padding: 1.5px;
@@ -189,6 +195,7 @@ position: relative;
 .grid_img_scaled:hover{
 	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
     opacity:.8;
 }
 
