@@ -21,6 +21,8 @@ body{
 	position: relative;
 	top: 43%;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
 	/* left: 45%; */
 }
 .myname{
@@ -71,7 +73,7 @@ body{
 
 .logo_scaled{
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-left: 5%;
 	height:65px;
 }
@@ -84,7 +86,7 @@ body{
 #topbar-items{
 	position:absolute;
 	margin-left:60%;
-	top:35px;
+	top:40px;
 	z-index: 100;
 	
 }
@@ -102,6 +104,8 @@ body{
 .topbar-text:hover{
 	opacity:0.6;
 	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
 }
 
 
@@ -126,6 +130,7 @@ body{
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
+
 
 
 
@@ -155,3 +160,5 @@ body{
 	text-transform: uppercase;
 }
 }
+
+
