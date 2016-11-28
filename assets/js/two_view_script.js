@@ -23,6 +23,5 @@ $("#topbar-text-projects").click(function(){
 
 
 
-
 });
 
