@@ -140,6 +140,8 @@ body{
 .topbar-text:hover{
 	opacity:0.6;
 	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
 }
 
 #grid_container{
@@ -187,6 +189,8 @@ position: relative;
 	-moz-filter: grayscale(100%);
 	opacity:.6;
 	transition:1.25s;
+	-webkit-transition:1.25s;
+	-moz-transition:1.25s;
 	padding: 1.5px;
 	cursor:pointer;
 }
